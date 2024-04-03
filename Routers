@@ -1,1 +1,6 @@
+const routerAtendimento = require("./atendimentosRouters.js");
+
+module.exports = (app1) => {
+  app1.use(routerAtendimento);
+};
 
